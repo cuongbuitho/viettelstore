@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+}
+section{
+    width: 100%;
+    margin-top: 10px;
+}
+.main__thanhToan{
+    width: 600px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 10px;
+}
+.main__thanhToan .list__name{
+    padding: 10px;
+}
+.main__thanhToan .list__name:last-child{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.main__thanhToan .list__name:first-child{
+    margin-right: auto;
+    margin-left: 40px;
+}
+.list__product__thanhtoan{
+    width: 600px;
+    margin: auto;
+    background-color: #fff;
+
+}
+.main__product__thanhtoan{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
+}
+.list__product__thanhtoan .item__product__thanhtoan{
+    width: 200px;
+    text-align: center;
+}
+.list__product__thanhtoan .item__product__thanhtoan:first-child{
+    width: 200px;
+}
+.list__product__thanhtoan .item__product__thanhtoan:last-child{
+    width: 200px;
+    margin-left: 20px;
+}
+.btn__xoa__san__pham{
+    margin-right: 70px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #BBBBBB;
+}
+.diachi{
+    list-style: none;
+}
+.address{
+    font-size: 13px;
+}
+.hovaten .hoten_sdt{
+	border: none;
+    width: 505px;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+
+}
+.hoten_sdt:focus,
+.txtEmailUser:focus,
+.txtDiaChi:focus
+{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.txtEmailUser{
+	border: none;
+    width: 505px;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+.txtDiaChi{
+	border: none;
+    width: 505px;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+.btn__dat__hang{
+    outline: none;
+    padding: 8px 10px;
+    width: 525px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #EE4D2D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.txtValue{
+    line-height: 100px;
+}

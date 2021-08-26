@@ -1,0 +1,93 @@
+footer{
+
+}
+.footer__top{
+    width: 100%;
+    background-color: #EE0032;
+    margin-top: 20px;
+}
+.footer__top .footer__containter{
+    width: 1200px;
+    margin: auto;
+}
+.register__email{
+    width: 550px;
+    margin: auto;
+    padding-top: 25px;
+}
+.register__email__text{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.email__text{
+    font-style: italic;
+    color: #ddd;
+    font-size: 14px;
+    font-weight: normal;
+}
+.information__container{
+    margin-top: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 150px;
+    font-size: 14px;
+
+}
+.txtEmail{
+    border: none;
+    width: 350px;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.btnRegister{
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px;
+    background-color: #2f85cb;
+    color: #fff;
+}
+.chinhsach{
+    width: 1000px;
+    margin: auto;
+}
+.chinhsach .footer__list_item{
+    display: flex;
+    list-style: none;
+}
+.chinhsach .footer__list_item .footer__items{
+    padding-right: 30px;
+
+}
+.chinhsach .footer__list_item .footer__items p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.tuvan{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    font-size: 15px;
+    color: #fff;
+
+}
+.chamsoc{
+    line-height: 24px;
+    font-size: 15px;
+    color: #fff;
+}
+.coppy-right{
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="web.user" template="/WEB-INF/layout/master.jsp">
+		<put-attribute name="card" value="/WEB-INF/layout/_card.jsp" />
+		<put-attribute name="category" value="/WEB-INF/layout/_category.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/_footer.jsp" />
+		<put-attribute name="head" value="/WEB-INF/layout/_head.jsp" />
+		<put-attribute name="header" value="/WEB-INF/layout/_header.jsp" />
+		<put-attribute name="js" value="/WEB-INF/layout/_js.jsp" />
+	</definition>
+	<definition name="*" extends="web.user">
+		<put-attribute name="body" value="/WEB-INF/jsp/{1}.jsp" />
+	</definition>
+</tiles-definitions>

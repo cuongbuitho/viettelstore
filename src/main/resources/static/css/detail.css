@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle{
+    width: 1140px;
+    margin: auto;
+}
+
+.main-contain{
+    display: flex;
+    flex-direction: row;
+}
+.detail-image{
+    width: 400px;
+    height: 425px;
+    margin: 5px;
+    float: left;
+}
+.img-detail img{
+    margin-top: 30px;
+    width: 370px;
+    height: 370px; 
+}
+.name-detail{
+    width: 1140px;
+    text-indent: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+}
+.name-detail:after{
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid #d2d7da;
+    width: 100%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    left: 50%;
+}
+.prices{
+    width: 450px;
+    margin: 5px;
+}
+.prices p{
+    color: red;
+    font-weight: bold;
+}
+.btn-Nut .btn-Mua{
+    width: 370px;
+    height: 50px; 
+    border-radius: 5px;  
+    background-color: #EE282B;
+    border: none;
+    margin-top: 10px;
+}
+.btn-Mua p{
+    line-height: 5px;
+}
+.btn-Nut .btn-Mua p{
+   
+    font-size: 18px;
+    
+}
+.btn-Nut > p{
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+.btn-Mua:hover{
+    background-color: #fff;
+    border: 1px solid #EE282B;
+    transition: 0.2s;
+}
+.btn-Mua:hover > p{
+    color: #EE282B;
+    transition: 0.2s;
+}
+.btn-TraGop{
+    display: flex;
+    flex-direction: row;
+}
+.btn-TraGop .by-phone, .by-atm{
+    width: 179px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #277CEA;
+}
+.btn-TraGop .by-phone p, .by-atm p{
+    color: #fff;
+    line-height: 0px;
+}
+ .by-phone:hover{
+    background-color: #fff;
+    border: 1px solid #277CEA;
+    transition: 0.2s;
+}
+.by-phone:hover p {
+    color: #277CEA;
+    transition: 0.2s;
+}
+.by-atm:hover{
+    background-color: #fff;
+    border: 1px solid #277CEA;  
+    transition: 0.2s;
+}
+.by-atm:hover p {
+    color: #277CEA;
+    transition: 0.2s;
+}
+.thongSo{
+    margin-top: 35px;
+    width: 270px;
+    height: 280px; 
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.thongSo ul li{
+    list-style: none;
+    padding: 3px;
+    margin: 3px;
+    font-size: 14px;
+}
+.thongSo ul{
+    padding: 5px;
+    margin: 5px;
+}
+.description{
+    width: 330px;
+    margin: auto;
+    padding: 5px;
+    text-align: justify;
+    float: right;
+
+}
+.comment-fb{
+    max-width: 1140px;
+    margin: auto;
+}
+.timhieu{
+    text-decoration: none;
+    color: #4A89BF;
+}
+.gps__shop{
+    margin-top: 25px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    list-style: none;
+    border-radius: 5px;
+}
+.gps__shop:hover{
+    background-image: linear-gradient(#FF9914, #FF5614);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+.gps__shop:hover .vitri{
+    color: #fff;
+}
+.vitri{
+    text-decoration: none;
+    color: #4A89BF;
+    font-size: 14px;
+    margin-left: 25px;
+}
+.khuyenMai{
+    border: 1px solid #ddd;
+    width: 83%;
+    border-radius: 5px;
+}
+h4, h5, h6{
+    margin: 5px;
+    color: #fff;
+}
+.list__tenKhuyenMai{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list__tenKhuyenMai .tenKhuyenMai{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.fullMargin{
+    background-color: #34A105;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+ 
+}
+.tkm{
+    font-size: 15px !important;
+    font-weight: 600;
+    margin-left: 5px;
+}

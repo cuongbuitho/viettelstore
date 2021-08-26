@@ -1,0 +1,307 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.slide__show {
+	width: 1200px;
+	height: 400px;
+	margin: auto;
+	display: flex;
+}
+
+.slide__show .slider {
+	margin-right: 10px;
+}
+
+.slide__show .slider img {
+	width: 785px;
+	height: 385px;
+}
+
+.slide__show .new__paper {
+	background: #fff;
+}
+
+.slide__show .new__paper img {
+	width: 380px;
+	height: 130px;
+}
+
+.slide__show .new__paper img:first-child {
+	margin-bottom: 5px;
+}
+
+.muahang {
+	margin-top: -5px;
+	display: flex;
+}
+
+.muahang .line__up {
+	border: 1px solid #ddd;
+	background: #fff;
+	text-align: center;
+	font-size: 12px;
+}
+
+.muahang .line__up p {
+	margin-top: 10px;
+}
+
+.slide {
+	display: flex;
+}
+
+.slide .logo__docquyen {
+	width: 140px;
+	height: 40px;
+	background: #FDD504;
+	margin-right: 10px;
+	color: #6B7AB7;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.slide .docquyen {
+	font-size: 12px;
+	color: red;
+}
+
+.slidex2 {
+	width: 400px;
+	display: flex;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.danhMucSanPham {
+	width: 1200px;
+	margin: auto;
+}
+
+.danhMucSanPham .list__category {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: -10px;
+}
+
+.danhMucSanPham .list__category .item__category {
+	padding: 10px 20px;
+	width: 100px;
+	border: 1px solid #ddd;
+}
+
+.sort__product {
+	width: 1140px;
+	margin: auto;
+	background-color: #F5F5F5;
+}
+
+.list__price {
+	list-style: none;
+	display: flex;
+	color: #81A4DB;
+	font-size: 14px;
+}
+
+.list__price .item__price {
+	padding: 10px 10px;
+}
+
+.list__price .item__price:first-child {
+	margin-right: 0px;
+	padding-left: 0;
+	color: #000;
+}
+
+
+.list__price__level__2 {
+	list-style: none;
+	border: 1px solid #ddd;
+	position: absolute;
+	padding: 5px 10px;
+	background-color: #fff;
+	color: #000;
+	margin-top: -6px;
+	border-radius: 15px;
+	width: 140px;
+	text-align: center;
+}
+.list__price__level__2 .item__price__level__2:hover{
+	background-color: #ddd;
+}
+.list__price__level__2:hover .item__price__level__2{
+	display: block;
+}
+.item__price__level__2 {
+	padding: 5px 0px;
+	display: none;	
+}
+section {
+	position: relative;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.product {
+	width: 25%;
+
+	/* padding: 5px; */
+}
+
+.product .product__item {
+	border: 1px solid #ddd;
+	/* box-shadow: 1px 2px 5px 2px #ddd; */
+}
+
+.product .product__item a {
+	text-decoration: none;
+	color: #000;
+}
+
+.product .product__item:hover {
+	box-shadow: 1px 2px 5px 2px #ddd;
+}
+
+.product .product__name {
+	font-weight: 700;
+	text-align: center;
+}
+
+.product .product__price {
+	font-weight: 700;
+	text-align: center;
+	color: #F83015;
+}
+
+.product .product__image {
+	margin-top: 5px;
+}
+
+.product .product__image img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.product__btn {
+	width: 100%;
+}
+
+.product__btn .btn__cart {
+	border: 1px solid #ddd;
+	width: 50%;
+	margin-left: 75px;
+	background-color: transparent;
+	padding: 5px;
+	line-height: 20px;
+	color: black;
+	font-weight: 700;
+	font-size: 14px;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px #ddd;
+}
+
+.product:hover .btn__cart {
+	transition: 0.6s;
+	background-color: yellow;
+	color: red;
+}
+
+.paging__product {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 20px;
+}
+
+.quangcaopr {
+	width: 1100px;
+	margin: auto;
+}
+
+.bnpr {
+	margin: auto;
+	margin-top: 10px;
+}
+.xepmin{
+	border: none;
+	background: transparent;
+}
+.xepmax{
+	border: none;
+	background: transparent;
+}
+
+
+
+
+
+
+
+.modal__addCart {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%; 
+  height: 30%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.modal__content {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  margin-top: 20px;
+}
+.closup {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -100px;
+  margin-right: 5px;
+  
+}
+.closup:hover,
+.closup:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.ticked{
+	margin: auto;
+	width: 150px;
+	margin-top: -50px;
+	
+}
+.ticked img{
+	width: 70px;
+	margin-left: 40px;
+}
+.sort__product__price{
+}
+.sort__price{
+	padding: 5px 12px;
+	position: absolute;
+	margin-top: -7px;
+	border-radius: 50px;
+}
